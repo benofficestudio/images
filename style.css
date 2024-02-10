@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: deepskyblue;
+  background-color: yellow;
 }
 
 .modal {
@@ -112,13 +112,35 @@ p{
   font-size: .7em;
 }
 
-#title{
-  color: black;
+h2{
+  font-size: 24px;
+  margin: 50px;
+  bottom: 25px;
+  /* margin-left: auto; */
+  color: purple;
   font-family: "Helvetica";
-  font-weight: 500;
-  padding-left: 35px;
-  padding-bottom: 50px;
-  text-decoration: underline;
-  position: absolute;
-  text-transform: uppercase;
+  font-weight: 400;
+  z-index: -1;
 }
+
+#myBtn {
+  font-family: "Helvetica";
+  font-size: 24px;
+  text-transform: uppercase;
+  list-style-type: none;
+  background: none;
+  border: none;
+  color: purple;
+  margin: 50px;
+  cursor: pointer;
+}
+
+p{
+  font-size: 15px;
+  line-height: 18px;
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+#more {display: none;}
